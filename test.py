@@ -6,4 +6,6 @@ author = { "name" : "eddie", "profile" : {"age" : 30, "tel" : "0928123456"} }
 
 print "my_tuple is ",my_tuple
 
+print "eddie is", eddie
 
+print "author is ",author
