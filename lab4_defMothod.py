@@ -6,6 +6,8 @@ def BMI(cm, kg):
 	n = round(float(kg/cm), 2)
 	return n
 """
+#from decimal import Decimal
+# Using Decimal()function can slove float point, too.
 import BMI_module
 
 print "Input your height. (cm)"

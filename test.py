@@ -9,3 +9,5 @@ print "my_tuple is ",my_tuple
 print "eddie is", eddie
 
 print "author is ",author
+
+#long time no coding, so sad ....Q_Q"
