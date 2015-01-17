@@ -5,14 +5,14 @@ def Pig_Latin():
     if word != "":
         #print 'word=%s' % word
         #step3
-	new = ""
+	new_word = ""
         for i in range(1, len(word)):
-            new = new + word[i]
+            new_word = new_word + word[i]
     
-        new = new+ word[0] + "ay"
+        new_word = new_word + word[0] + "ay"
 
         #step4
-        print 'Your new word is "%s"' % new
+        print 'Your new word is "%s"' % new_word
     else:
         Pig_Latin()
 
