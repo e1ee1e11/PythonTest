@@ -2,7 +2,7 @@
 def Pig_Latin():
     word = raw_input("Please input a word.\n")
     #step2
-    if word != "":
+    if word.isalpha():
         #print 'word=%s' % word
         #step3
 	new_word = ""
