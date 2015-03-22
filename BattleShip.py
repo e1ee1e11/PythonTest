@@ -1,4 +1,5 @@
-from random import randint
+#from random import randint
+import random
 
 board = []
 
@@ -13,10 +14,10 @@ print "Let's play Battleship!"
 print_board(board)
 
 def random_row(board):
-    return randint(0, len(board) - 1)
+    return random.randint(0, len(board) - 1)
 
 def random_col(board):
-    return randint(0, len(board[0]) - 1)
+    return random.randint(0, len(board[0]) - 1)
 
 ship_row = random_row(board)
 ship_col = random_col(board)
